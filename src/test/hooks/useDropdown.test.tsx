@@ -1,6 +1,6 @@
 import { act, renderHook } from "@testing-library/react";
 import { Item } from "../../models/Item";
-import useDropdown from "../useDropdown";
+import useDropdown from "../../hooks/useDropdown";
 
 const items: Item[] = [
   {
