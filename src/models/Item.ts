@@ -1,5 +1,5 @@
 export interface Item {
-    icon: String;
-    text: String;
-    description: String;
+    icon: string;
+    text: string;
+    description: string;
 }

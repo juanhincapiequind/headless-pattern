@@ -1,8 +1,4 @@
-interface Item {
-  icon: String;
-  text: String;
-  description: String;
-}
+import { Item } from "../../models/Item";
 
 const DropdownMenu = ({
   items,
