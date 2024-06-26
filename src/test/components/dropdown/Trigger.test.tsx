@@ -1,5 +1,6 @@
 import {render, fireEvent } from '@testing-library/react'
-import Trigger from '../../components/dropdown/Trigger';
+import Trigger from '../../../components/dropdown/Trigger';
+
 
 test("Trigger renders with label and responds to click", () => {
     const handleClick = jest.fn();

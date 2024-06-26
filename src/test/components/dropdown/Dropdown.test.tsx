@@ -1,8 +1,6 @@
 import { fireEvent, render } from "@testing-library/react";
-import { Item } from "../../models/Item";
-import { Dropdown } from "../../components/dropdown/Dropdown";
-
-
+import { Dropdown } from "../../../components/dropdown/Dropdown";
+import { Item } from "../../../models/Item";
 
 const items: Item[] = [
   {
