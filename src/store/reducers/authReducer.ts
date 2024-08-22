@@ -1,11 +1,6 @@
 import { LOGIN_FAILURE, LOGIN_REQUEST, LOGIN_SUCCESS } from "../constants";
+import {AuthState} from '../../models/auth'
 
-interface AuthState {
-  email: string;
-  isLoading: boolean;
-  isAuthenticated: boolean;
-  error: string | null;
-}
 
 const initialState: AuthState = {
   email: "",
